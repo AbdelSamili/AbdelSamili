@@ -1,203 +1,227 @@
-<div align="center">
+<!-- ====================================================================
+     GitHub profile README — Abdelkhaleq Samili
+     Repo: github.com/AbdelSamili/AbdelSamili  (repo name = username)
+     Placeholders to replace are marked with TODO.
+     ==================================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,0052CC,1a6ed8&height=200&section=header&text=Abdelkhaleq%20Samili&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineering%20Student%20%7C%20Backend%20%7C%20AI&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<p align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Abdelkhaleq Samili — Software Engineer, QA, Testing and AI. A terminal-style report shows: builds Java, Spring Boot, React; tests JUnit 5, Selenium, Playwright; evaluates LLM and RAG apps; certified ISTQB CTFL — 4 passed, 0 failed." />
+</p>
 
-</div>
-
-<div align="center">
-
-<svg width="138" height="138" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="avatar-clip">
-      <circle cx="69" cy="69" r="63"/>
-    </clipPath>
-  </defs>
-  <circle cx="69" cy="69" r="67" fill="#0052CC"/>
-  <circle cx="69" cy="69" r="63" fill="#ffffff"/>
-  <image href="https://github.com/AbdelSamili.png"
-         x="6" y="6" width="126" height="126"
-         clip-path="url(#avatar-clip)"
-         preserveAspectRatio="xMidYMid slice"/>
-</svg>
-
-<br/><br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=0052CC&center=true&vCenter=true&width=600&lines=Backend+Java+%2F+Spring+Boot+Engineer;AI+%26+Computer+Vision+Builder;Software+Quality+%26+Clean+Code+Advocate;Open+to+Internships+%26+Collaborations)](https://git.io/typing-svg)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelkhaleq-samili-740ba1305)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbdelSamili)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdelkhaleq.samili@gmail.com)
-[![Morocco](https://img.shields.io/badge/Morocco-Open%20to%20Remote-FF6B35?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=AbdelSamili&color=0052CC&style=flat-square&label=Profile+Views)
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/abdelkhaleq-samili-740ba1305"><img src="https://img.shields.io/badge/LinkedIn-Abdelkhaleq%20Samili-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn profile of Abdelkhaleq Samili" /></a>
+  <a href="mailto:abdelkhaleqsamili@gmail.com"><img src="https://img.shields.io/badge/Email-abdelkhaleqsamili%40gmail.com-0E2F5A?style=flat-square&logo=gmail&logoColor=white" alt="Email Abdelkhaleq Samili" /></a>
+  <img src="https://img.shields.io/badge/Based%20in-Casablanca%2C%20Morocco-3FB27F?style=flat-square&logo=googlemaps&logoColor=white" alt="Based in Casablanca, Morocco" />
+  <img src="https://img.shields.io/badge/Open%20to-PFE%20internship%202027-3FB27F?style=flat-square" alt="Open to a final-year (PFE) internship in 2027" />
+</p>
 
 ---
 
-## 🧑‍💻 About Me
+## `$ whoami`
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding gif"/>
+I build software, and then I try to break it on purpose.
 
-```yaml
-name       : Abdelkhaleq Samili
-title      : Software Engineering Student
-location   : Morocco 🇲🇦  |  Open to Remote & Relocation
-education  : Master's in Software Quality Engineering @ USMBA
-focus      : Backend · Distributed Systems · AI Integration
-freelance  : Active on Upwork since 2023 (15+ clients)
-currently  : ERP Cloud-Native (Microservices + AWS + K8s)
-learning   : Spring AI · LangChain4j · OCI · Kubernetes
-certified  : OCP Java SE 17 · OCI Gen AI Professional
-languages  : Arabic (Native) · French (B2) · English (C1)
+I'm a software engineer finishing a **Master's in Software Quality (MQL)** at USMBA, Fès, with an **ISTQB CTFL** certification and a full-stack Java background. My work sits where three things meet: **solid back-end engineering** (Java, Spring Boot, REST APIs), **test automation** (JUnit 5, Selenium, Playwright, Postman), and a newer question I care a lot about — **how do you test an application whose answers come from an LLM?**
+
+```java
+@DisplayName("Abdelkhaleq Samili")
+class AboutMeTest {
+
+    @Test void education()      { assertThat(me.degree()).isEqualTo("Master's in Software Quality — USMBA, Fès"); }
+    @Test void focus()          { assertThat(me.focus()).contains("QA", "Test Automation", "LLM & RAG evaluation"); }
+    @Test void coreStack()      { assertThat(me.stack()).contains("Java", "Spring Boot", "React.js", "REST APIs"); }
+    @Test void certifications() { assertThat(me.certs()).contains("ISTQB CTFL", "Oracle Java SE 17", "OCI Generative AI"); }
+    @Test void languages()      { assertThat(me.speaks()).containsExactly("Arabic", "French", "English"); }
+}
+// Tests run: 5, Failures: 0, Errors: 0
 ```
 
-<br clear="right"/>
-
 ---
 
-## 🏆 Certifications
+## 🧪 What I work on
 
-<div align="center">
-
-| 🏅 Certification | 🏢 Issuer | 📅 Year |
-|:---|:---|:---:|
-| ☕ Oracle Certified Professional — Java SE 17 Developer | Oracle University | 2026 |
-| ☁️ Oracle Cloud Infrastructure 2025 Gen AI Professional | Oracle University | 2026 |
-| 🌐 Cisco CCNA 1 · 2 · 3 | Cisco Networking Academy | 2024 |
-
-</div>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🔍 Quality &amp; Testing</h3>
+      Functional and regression test design following ISTQB practices, UI automation with Selenium WebDriver and Playwright, unit testing with JUnit 5 and Mockito, API testing with Postman, coverage and code quality with JaCoCo and SonarQube.
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚙️ Back-End Engineering</h3>
+      REST APIs with Java and Spring Boot, persistence with Hibernate/JPA, full-stack integration with React.js, and CI/CD pipelines on GitHub Actions so tests run on every change.
+    </td>
+    <td width="33%" valign="top">
+      <h3>🤖 AI Quality</h3>
+      Building RAG applications with Spring AI, and evaluating LLM output with DeepEval, RAGAS and promptfoo — treating model answers as something to test, not just to trust.
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+**Languages & back-end**
 
-### ⚙️ Backend
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Jakarta EE](https://img.shields.io/badge/Jakarta_EE-ED8B00?style=for-the-badge&logo=eclipseide&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,hibernate,nodejs,kafka&theme=dark" alt="Java, Spring, Hibernate, Node.js, Apache Kafka" /></a>
+</p>
 
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+**Front-end**
 
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind&theme=dark" alt="React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS" /></a>
+</p>
 
-### ☁️ DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+**Databases**
 
-### 🧪 QA & Testing
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis&theme=dark" alt="MySQL, PostgreSQL, MongoDB, Redis" /></a>
+</p>
 
-### 🤖 AI & Machine Learning
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+**DevOps & CI/CD**
 
-</div>
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,githubactions,jenkins,docker,kubernetes,terraform,maven,aws&theme=dark" alt="Git, GitHub, GitHub Actions, Jenkins, Docker, Kubernetes, Terraform, Maven, AWS" /></a>
+</p>
 
----
+**QA & Testing**
 
-## 🚀 Featured Projects
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=selenium,postman&theme=dark" alt="Selenium, Postman" /></a>
+  <br />
+  <img src="https://img.shields.io/badge/JUnit%205-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit 5" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Mockito-0A1F3D?style=for-the-badge" alt="Mockito" />
+  <img src="https://img.shields.io/badge/JaCoCo-0A1F3D?style=for-the-badge" alt="JaCoCo" />
+  <img src="https://img.shields.io/badge/SonarQube-126ED3?style=for-the-badge&logo=sonarqube&logoColor=white" alt="SonarQube" />
+  <img src="https://img.shields.io/badge/Xray-0A1F3D?style=for-the-badge" alt="Xray" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
+</p>
 
-<div align="center">
+**GenAI, LLM & AI Testing**
 
-| 🗂️ Project | 📝 Description | 🔧 Stack |
-|:---|:---|:---|
-| 🧥 **Virtual Try-On AI** | Real-time virtual try-on for traditional Moroccan clothing using AI body segmentation. Supports 10+ garment types. | Python · OpenCV · Deep Learning |
-| 🏥 **Healthcare App** | Full-stack medical management system with 3 modules and 8 REST endpoints for patient records and appointments. | Spring Boot · React.js · MySQL |
-| 🏭 **ERP Cloud-Native** | Cloud-native ERP on microservices architecture with full CI/CD on AWS, Kubernetes and Jenkins. | Spring Boot · Docker · K8s · AWS |
-| 📱 **Vehicle Inspection App** | Cross-platform mobile app reducing vehicle inspection booking to a 3-step digital flow. | React Native · Node.js · MongoDB |
-| 🎙️ **Vocal Emotion AI** | ML classification system trained across 5 emotion categories from vocal audio features. | Python · Scikit-learn · ML |
+<p>
+  <img src="https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring AI" />
+  <img src="https://img.shields.io/badge/RAG-0E2F5A?style=for-the-badge" alt="Retrieval-Augmented Generation" />
+  <img src="https://img.shields.io/badge/DeepEval-0E2F5A?style=for-the-badge" alt="DeepEval" />
+  <img src="https://img.shields.io/badge/RAGAS-0E2F5A?style=for-the-badge" alt="RAGAS" />
+  <img src="https://img.shields.io/badge/promptfoo-0E2F5A?style=for-the-badge" alt="promptfoo" />
+  <img src="https://img.shields.io/badge/MCP-0E2F5A?style=for-the-badge" alt="Model Context Protocol" />
+  <img src="https://img.shields.io/badge/Agentic%20AI-0E2F5A?style=for-the-badge" alt="Agentic AI" />
+</p>
 
-</div>
+<details>
+<summary><b>Architecture & methodologies</b></summary>
+<br />
+
+- **Architecture:** microservices, MVC, 3-tier, Domain-Driven Design, design patterns
+- **Methodologies:** Agile Scrum, Kanban, Git workflow, Jira
+
+</details>
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Work
 
-<div align="center">
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 RAG Course Assistant</h3>
+      <sub><b>Full Stack &amp; AI Developer · Freelance (Upwork) · Jul – Sep 2026</b></sub>
+      <p>A course assistant built on Retrieval-Augmented Generation: Spring Boot + Spring AI REST back-end with a React.js front-end. Quality was built into the pipeline — JUnit 5 unit tests, Playwright end-to-end tests, and DeepEval evaluation of LLM answers, all running in GitHub Actions.</p>
+      <img src="https://img.shields.io/badge/Spring%20AI-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring AI" />
+      <img src="https://img.shields.io/badge/React-0E2F5A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" />
+      <img src="https://img.shields.io/badge/DeepEval-0E2F5A?style=flat-square" alt="DeepEval" />
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      <p><sub>Client project — source code is private.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏦 ParaBank QA Project</h3>
+      <sub><b>Independent QA Engineer · Personal project · Apr – Jun 2026</b></sub>
+      <p>End-to-end QA on the ParaBank demo banking application: designed and executed functional and regression test cases on critical journeys (login, transfers, transaction history), automated key scenarios with Selenium WebDriver (Java), and tested the APIs with Postman.</p>
+      <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium" />
+      <img src="https://img.shields.io/badge/Java-0E2F5A?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/JUnit%205-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5" />
+      <img src="https://img.shields.io/badge/Mockito-0E2F5A?style=flat-square" alt="Mockito" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
+      <!-- TODO: replace REPO_NAME with your ParaBank repository name -->
+      <p><a href="https://github.com/AbdelSamili/REPO_NAME">View repository →</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏥 Medical Management Platform</h3>
+      <sub><b>Full Stack Developer · Internship, Ministry of Health · May – Jul 2024</b></sub>
+      <p>Full-stack web application for patient records and appointments across 3 modules. Designed 8 REST endpoints in Spring Boot, integrated with React.js and MySQL. Automated scheduling cut manual data entry by an estimated 40%.</p>
+      <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/React-0E2F5A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+      <p><sub>Institutional project — source code is not public.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚗 Vehicle Inspection Mobile App</h3>
+      <sub><b>Mobile &amp; Back-End Developer · DUT final project · Apr – May 2024</b></sub>
+      <p>Cross-platform mobile app for scheduling vehicle technical inspections, backed by a Node.js REST API and covering a 4-step end-to-end workflow.</p>
+      <img src="https://img.shields.io/badge/React%20Native-0E2F5A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <!-- TODO: replace REPO_NAME, or delete this link if the repo is private -->
+      <p><a href="https://github.com/AbdelSamili/REPO_NAME">View repository →</a></p>
+    </td>
+  </tr>
+</table>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=AbdelSamili&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdelSamili&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+---
 
-<br/><br/>
+## 🏅 Certifications
 
-![GitHub Streak](https://streak-stats.demolab.com?user=AbdelSamili&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D)
-
-<br/>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AbdelSamili&theme=tokyo-night&hide_border=true&area=true)
-
-</div>
+| Certification | Issuer | Date |
+| :-- | :-- | :-- |
+| ISTQB® Certified Tester – Foundation Level (CTFL) | ISTQB | Oct 2026 |
+| Oracle Certified Professional: Java SE 17 Developer | Oracle University | Jun 2026 |
+| Oracle Cloud Infrastructure 2025 Certified Generative AI Professional | Oracle University | Jun 2026 |
 
 ---
 
 ## 🎓 Education
 
-<div align="center">
-
-| 🏛️ Degree | 🏫 Institution | 📍 City | 📅 Period |
-|:---|:---|:---:|:---:|
-| Master's in Software Quality Engineering (MQL) | USMBA | Fez | 2025 – Present |
-| Professional Bachelor's in IS & Network Engineering | ESTM | Meknes | 2023 – 2024 |
-| University Diploma in Computer Engineering | EST Safi | Safi | 2021 – 2023 |
-
-</div>
+- **Master's in Software Quality (MQL)** — Université Sidi Mohamed Ben Abdellah (USMBA), Fès · *2025 – present*
+- **Professional Bachelor's in Information Systems & Networks Engineering** — EST Safi · *2024 – 2025*
+- **University Diploma of Technology (DUT) in Computer Engineering** — EST Safi · *2022 – 2024*
 
 ---
 
-## 🌍 Languages
+## 🔭 Right now
 
-<div align="center">
+- 📚 Completing my **Master's in Software Quality** at USMBA
+- 🧠 Going deeper into **LLM and RAG evaluation** — measuring answer relevance, faithfulness and regressions with DeepEval, RAGAS and promptfoo
+- 🔁 Wiring that evaluation into **CI/CD**, so AI features get the same safety net as the rest of the code
 
-![Arabic](https://img.shields.io/badge/Arabic-Native-2ECC71?style=for-the-badge)
-![French](https://img.shields.io/badge/French-B2_Fluent-3498DB?style=for-the-badge)
-![English](https://img.shields.io/badge/English-C1_Proficient-9B59B6?style=for-the-badge)
+## 🎯 What I'm looking for
 
-</div>
+I'm looking for a **final-year (PFE) internship in 2027** in **QA / test automation** or **AI quality engineering** — a team that ships real software and takes its quality seriously. I'm also happy to collaborate on open-source testing tools or projects exploring how to evaluate LLM-based applications.
 
 ---
 
-<div align="center">
+## 📈 Activity
 
-### 💬 Let's build something great together
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbdelSamili/AbdelSamili/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/AbdelSamili/AbdelSamili/output/github-snake.svg" width="100%" alt="Animation of a snake eating Abdelkhaleq Samili's GitHub contribution graph" />
+  </picture>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelkhaleq-samili-740ba1305)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdelkhaleq.samili@gmail.com)
+---
 
-<br/>
+## 📫 Let's talk
 
-*"Clean code always looks like it was written by someone who cares."* — Robert C. Martin
+<p align="center">
+  <a href="https://www.linkedin.com/in/abdelkhaleq-samili-740ba1305"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdelkhaleq Samili on LinkedIn" /></a>
+  <a href="mailto:abdelkhaleqsamili@gmail.com"><img src="https://img.shields.io/badge/Send%20an%20email-0E2F5A?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Abdelkhaleq Samili an email" /></a>
+  <!-- TODO (optional): link your CV PDF if you host it in this repo -->
+</p>
 
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,0052CC,1a6ed8&height=120&section=footer" width="100%"/>
-
-</div>
+<p align="center"><sub>🇲🇦 Casablanca, Morocco · Arabic (native) · French (fluent) · English (fluent)</sub></p>
